@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.4" name="kloster" folder="stages/kloster/" startCamPosY="300" startCamPosX="650">
+	<girlfriend y="250"/>
+	<sprite name="bg"               x="0" y="0"   sprite="bg"       scroll="1" />
+	<sprite name="counterback"               x="0" y="0"   sprite="counter-back"       scroll="1" />
+	<sprite name="multiplyBeb"               x="0" y="0"   sprite="multiplyBeb"       scroll="1" />
+	<sprite name="counterfront"               x="0" y="0"   sprite="counter-front"       scroll="1" />
+	<sprite name="chairs"               x="0" y="0"   sprite="chairs"       scroll="1" />
+	<sprite name="multiply18"               x="0" y="0"   sprite="multiply18"       scroll="1" />
+	<sprite name="frontshit"               x="0" y="0"   sprite="front-shit"       scroll="1" />
+	<sprite name="supramultiply"               x="0" y="0"   sprite="supra-multiply"       scroll="1" />
+	<dad scale="1.75" x="1230" y="700" camxoffset="100" camyoffset="-150" />
+	<boyfriend scale="1.75" x="2245" y="750" camxoffset="-130" camyoffset="-150"/>
+	<sprite name="coolmultiply"               x="0" y="0"   sprite="cool-multiply"       scroll="1" />
+	<sprite name="lampsadd"               x="0" y="0"   sprite="lamps-add"       scroll="1" />
+	<sprite name="add40"               x="0" y="0"   sprite="40-add"       scroll="1" />
+</stage>

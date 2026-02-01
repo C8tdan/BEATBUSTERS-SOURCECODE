@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="danielgugugagasleep" icon="daniel" color="#00c459" x="40" y="-45" camx="-80" camy="15" scale="1.1">
+	<anim name="idle" anim="idle" x="-4.545454545454545" y="0" loop="true"/>
+</character>

@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-character>
+<character x="-300" y="550" flipX="true" camx="170" camy="-760" isPlayer="true" icon="bf" color="#31B0D1" applyStageMatrix="true">
+	<anim name="idle" anim="BF idle dance" x="-5"/>
+	<anim name="boxFull" anim="box full anim" x="-176" y="480"/>
+	<anim name="New Anim" anim="box animation1" x="-577" y="-21"/>
+	<anim name="New Anim - 1" anim="box loop" x="-206" y="-94" loop="true"/>
+</character>

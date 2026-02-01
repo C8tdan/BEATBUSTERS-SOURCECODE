@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="340" startCamPosY="600" folder="stages/showstage/" zoom="0.8" name="showstage">
+	<girlfriend y="250"/>
+	<sprite x="-516" sprite="ucampitt" y="-337" name="bg"/>
+	<sprite x="194" sprite="oppShadowMultiply" y="570" name="oppShadow"/>
+	<sprite x="838" sprite="bfShadowMultiply" y="551" name="bfShadow"/>
+	<sprite x="419" sprite="micShadowMultiply" y="586" name="micShadow"/>
+	<sprite x="419" sprite="mic" y="268" name="mic"/>
+	<dad x="55" y="-106" camxoffset="50"/>
+	<boyfriend scale="0.88" x="790" y="-60" camxoffset="-50"/>
+	<sprite x="-426" scroll="1.05" sprite="lightRack" y="-337" name="lightRack"/>
+	<sprite x="-516" scroll="1.1" sprite="curtain" y="-337" name="curtain1"/>
+	<sprite x="1416" scroll="1.2" sprite="curtain" y="-337" name="curtain2" flipX="true"/>
+	<sprite x="-516" scroll="1.2" sprite="crowd" y="670" name="crowd"/>
+</stage>

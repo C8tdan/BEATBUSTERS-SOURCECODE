@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Black apple enable (uncheck to stop the bad apple effect)",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        {
+            "name": "Character color",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        }
+    ]
+}

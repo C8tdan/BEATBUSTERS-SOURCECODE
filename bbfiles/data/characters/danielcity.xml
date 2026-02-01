@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="daniel-city" icon="daniel" color="#00c459" y="205" camx="-110" camy="25">
+	<anim name="singLEFT" anim="left" x="16" y="13"/>
+	<anim name="singDOWN" anim="down" x="-32" y="-62"/>
+	<anim name="singUP" anim="up" x="-14" y="53"/>
+	<anim name="singRIGHT" anim="right" x="-20" y="20"/>
+	<anim name="idle" anim="idle" loop="true"/>
+</character>

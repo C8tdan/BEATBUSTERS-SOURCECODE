@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="60" y="215" sprite="daniel-sheet_SUNSET" scale="1.05" camx="-90" camy="25" icon="daniel" color="#00C459">
+	<anim name="idle" anim="idle" x="-23.81" y="-0.95"/>
+	<anim name="singLEFT" anim="left" x="-107.62" y="-28.57"/>
+	<anim name="singDOWN" anim="down" x="-160.95" y="-114.29"/>
+	<anim name="singUP" anim="up" x="-124.76" y="5.71"/>
+	<anim name="singRIGHT" anim="right" x="-192.38" y="-68.57"/>
+</character>

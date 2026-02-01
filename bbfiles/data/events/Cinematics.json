@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Height (use negative offsets for taking them up)",
+            "type": "Float(-600, 300, 1, 1)",
+            "defaultValue": "90"
+        },
+        {
+            "name": "Time",
+            "type": "Float(0.1, 10, 1, 1)",
+            "defaultValue": "0.3"
+        }
+    ]
+}

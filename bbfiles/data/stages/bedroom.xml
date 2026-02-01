@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="bedroom" folder="stages/bedroom/" startCamPosY="300" startCamPosX="650">
+	<girlfriend y="250"/>
+	<sprite name="bg"               x="-596" y="-370"   sprite="walls"       scroll="1" />
+	<sprite name="carpet"       x="567" y="1005"    sprite="carpet"      scroll="1" />
+	<sprite name="window"       x="1116" y="388"    sprite="windows13"      scroll="1" />
+	<sprite name="bag"       x="989" y="750"    sprite="bag"      scroll="1" />
+	<sprite name="bed"       x="-94" y="634"    sprite="bed"      scroll="1" />
+	<sprite name="closet"       x="571" y="249"    sprite="closet"      scroll="1" />
+	<sprite name="desk"       x="1485.5" y="589"    sprite="desk"      scroll="1" />
+	<sprite name="dunno"       x="1711" y="183"    sprite="ayo"      scroll="1" />
+	<sprite name="dunno_2"       x="-320" y="211"    sprite="shika"      scroll="1" />
+	<sprite name="lamp"       x="701" y="-196"    sprite="lamp"      scroll="1" />
+	<dad scale="1.08" x="330" y="325" camxoffset="100" camyoffset="-50"/>
+	<boyfriend x="1045" y="415" camyoffset="-150"/>
+	<sprite name="lightAdd"       x="504.5" y="-57.5"    sprite="lightAdd" scroll="1" alpha="0.25"/>
+	<sprite name="shadowoverlay"       x="-586" y="-1370"    sprite="shadowoverlay" scroll="1" alpha="0.75"/>
+	<sprite name="dunno_3"       x="-1069.4" y="1015.5"    sprite="box"      scroll="1.33" />
+	<sprite name="dunno_4"       x="1508.15" y="965.5"    sprite="dunno"      scroll="1.33" />
+	<sprite name="blueAdd"       x="-591" y="-370"    sprite="blueAdd"   alpha="0.15"   scroll="1.33" />
+</stage>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="60" y="180" sprite="daddo-decaffeinated" camx="-110" camy="30" color="#E49A1C">
+	<anim name="idle" anim="idle" x="-2"/>
+	<anim name="singLEFT" anim="left" x="98" y="28"/>
+	<anim name="singRIGHT" anim="right" x="-12" y="7"/>
+	<anim name="singDOWN" anim="down" x="-4" y="12"/>
+	<anim name="singUP" anim="up" x="5" y="5"/>
+</character>

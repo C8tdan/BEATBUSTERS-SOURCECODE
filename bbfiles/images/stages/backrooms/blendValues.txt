@@ -1,0 +1,4 @@
+multiply - 75%
+add - 39%
+multiply2 - 26%
+multiply3 - 18%

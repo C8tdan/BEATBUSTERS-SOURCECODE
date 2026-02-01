@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.8" name="shop" folder="stages/shop/" startCamPosY="300" startCamPosX="650">
+	<girlfriend x="-25" y="-100"/>
+	<sprite name="sky"               x="-479.5" y="-301.45"   sprite="sky"       scroll="0.33" />
+	<sprite name="bgCity"       x="-272.35" y="-281.25"    sprite="citybg"      scroll="0.5" />
+	<sprite name="wall"       x="-272.35" y="190.15"    sprite="wall"      scroll="1" />
+	<sprite name="street"       x="-964.1" y="594.55"    sprite="floor"      scroll="1"  scale="1.5"  updateHitbox="true"/>
+	<sprite name="button"       x="34.95" y="604.25"    sprite="nobodyknows"      scroll="1" />
+	<sprite name="wineBottle"       x="129.5" y="600.5"    sprite="wine"      scroll="1" />
+	<sprite name="beerBottle"       x="927.1" y="611.3"    sprite="beer"      scroll="1" />
+	<sprite name="wideBox"       x="-198.3" y="532.45"    sprite="box"      scroll="1" />
+	<sprite name="boxPile"       x="1104.45" y="438.05"    sprite="boxpile"      scroll="1" />
+	<sprite name="shoppy"       x="370" y="160"    sprite="shop"      scroll="1" />
+	<dad scale="0.88" x="130" y="70" />
+	<boyfriend scale="0.88" x="745" y="70" />
+	<sprite name="overlay"       x="-830" y="-606"    sprite="light" scroll="1" alpha="0.3"/>
+	<solid name="blueLight" color="#007AFF" width="5000" height="2800" x="-1812.6" y="-679.35" alpha="0.1" scroll="1"/>
+	<sprite name="frontwall"       x="-1069.4" y="-364.8"    sprite="frontwall"      scroll="1.33" />
+	<sprite name="frontwall2"       x="1508.15" y="-364.8"    sprite="frontwall"      scroll="1.33" flipX="true" />
+</stage>

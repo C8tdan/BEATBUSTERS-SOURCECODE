@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#AE6020",
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"normal"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Fuck.",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 190
+}
