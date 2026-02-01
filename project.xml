@@ -2,18 +2,18 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 	<app
-		title="Friday Night Funkin' - Codename Engine" main="funkin.backend.system.Main"
-		file="CodenameEngine" packageName="com.yoshman29.codenameengine"
-		package="com.yoshman29.codenameengine"
-		version="1.0.1" company="Yoshman29" />
+		title="BEATBUSTERS!" main="funkin.backend.system.Main"
+		file="BeatBusters" packageName="com.c8tdan.beatbusters"
+		package="com.c8tdan.beatbusters"
+		version="1.0.1" company="C8tdan" />
 
 	<!--
 		CHANGE THE SAVE PATH & NAME FOR YOUR MOD HERE!
 	-->
-	<haxedef name="SAVE_PATH" value="CodenameEngine"/>
+	<haxedef name="SAVE_PATH" value="BeatBusters"/>
 	<haxedef name="SAVE_NAME" value="save-default"/>
 
-	<haxedef name="SAVE_OPTIONS_PATH" value="CodenameEngine"/>
+	<haxedef name="SAVE_OPTIONS_PATH" value="BeatBusters"/>
 	<haxedef name="SAVE_OPTIONS_NAME" value="options"/>
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
