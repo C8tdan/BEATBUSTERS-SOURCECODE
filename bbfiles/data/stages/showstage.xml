@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-stage>
 <stage startCamPosX="340" startCamPosY="600" folder="stages/showstage/" zoom="0.8" name="showstage">
-	<girlfriend y="250"/>
+	<girlfriend x="0" y="-150"/>
 	<sprite x="-516" sprite="ucampitt" y="-337" name="bg"/>
 	<sprite x="194" sprite="oppShadowMultiply" y="570" name="oppShadow"/>
 	<sprite x="838" sprite="bfShadowMultiply" y="551" name="bfShadow"/>

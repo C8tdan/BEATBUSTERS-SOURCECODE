@@ -1,6 +1,6 @@
 {
 "AN":{
-"N":"bf box animation",
+"N":"BoyFriend_Assets",
 "SN":"__BTA_TEMP_SPRITEMAP_PACKED_SYMBOL",
 "TL":{
 "L":[
@@ -20,20 +20,8 @@
 "LP":"LP",
 "MX":[1,0,0,1,-320.85,0]
 }}]},{
-"N":"box animation1",
-"I":3,
-"DU":85,
-"E":[
-{"SI":{
-"SN":"box animation1",
-"FF":0,
-"ST":"G",
-"TRP":{"x":0,"y":0},
-"LP":"LP",
-"MX":[1,0,0,1,71.7,18.9]
-}}]},{
 "N":"box full anim",
-"I":88,
+"I":3,
 "DU":101,
 "E":[
 {"SI":{
@@ -43,6 +31,18 @@
 "TRP":{"x":0,"y":0},
 "LP":"LP",
 "MX":[1,0,0,1,-336.75,0.05]
+}}]},{
+"N":"box animation1",
+"I":104,
+"DU":85,
+"E":[
+{"SI":{
+"SN":"box animation1",
+"FF":0,
+"ST":"G",
+"TRP":{"x":0,"y":0},
+"LP":"LP",
+"MX":[1,0,0,1,71.7,18.9]
 }}]}
 ]}
 ]}}}

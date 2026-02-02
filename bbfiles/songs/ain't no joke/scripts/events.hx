@@ -2,6 +2,7 @@ var test:CustomShader;
 
 function create()
 {
+	gf.y = 250;
 	introLength = 0;
 
 	test = new CustomShader("ntsc");
