@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1.2" name="backrooms" folder="stages/backrooms/" startCamPosY="1830" startCamPosX="880">
+	<girlfriend x="580" y="1400"/>
+	<sprite name="bg"   x="-80" y="1400"    sprite="bg"      scroll="1" />
+	<dad scale="0.66" x="380" y="1550" />
+	<boyfriend scale="0.66" x="895" y="1550" />
+	<sprite name="multiply"       x="-80" y="1400"    sprite="multiply" scroll="1" alpha="0.75"/>
+	<sprite name="add"       x="-80" y="1400"    sprite="add" scroll="1" alpha="0.39"/>
+	<sprite name="multiply2"       x="-80" y="1400"    sprite="multiply2" scroll="1" alpha="0.26"/>
+	<sprite name="multiply3"       x="-80" y="1400"    sprite="multiply3" scroll="1" alpha="0.18"/>
+</stage>
