@@ -93,7 +93,7 @@ function lightTweens(speed:Float)
 function postCreate()
 {
     lightShader = new CustomShader("lightHandlerShader");
-    characterShader = new CustomShader("characterShader");
+    characterShader = new CustomShader("lightHandlerShader");
     camGame.addShader(lightShader);
 
     backadd.blend        = BlendMode.ADD;
@@ -106,7 +106,7 @@ function postCreate()
 
     boyfriend.shader = characterShader;
     dad.shader = characterShader;
-    characterShader.brightness = -20;
+    characterShader.brightness = -10;
     characterShader.contrast = 5;
     characterShader.saturation = 6;
 

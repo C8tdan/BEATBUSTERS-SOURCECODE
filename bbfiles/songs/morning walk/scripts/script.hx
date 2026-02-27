@@ -27,6 +27,15 @@ function postCreate()
     blackScreen.screenCenter();
     add(blackScreen);
 
+    var upperBar:FlxSprite = new FlxSprite(-1000, -600).makeGraphic(3500, 300, FlxColor.BLACK);
+    upperBar.scrollFactor.set();
+    upperBar.updateHitbox();
+    add(upperBar);
+    var lowerBar:FlxSprite = new FlxSprite(-1000, 1050).makeGraphic(3500, 300, FlxColor.BLACK);
+    lowerBar.scrollFactor.set();
+    lowerBar.updateHitbox();
+    add(lowerBar);
+
     startWalkLoopDad();
 }
 

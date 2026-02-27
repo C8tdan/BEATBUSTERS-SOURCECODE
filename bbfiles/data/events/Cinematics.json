@@ -1,14 +1,24 @@
 {
     "params": [
         {
-            "name": "Height (use negative offsets for taking them up)",
-            "type": "Float(-600, 300, 1, 1)",
-            "defaultValue": "90"
+            "name": "Show?",
+            "type": "Bool",
+            "defaultValue": "false"
+        },
+        {
+            "name": "Distance",
+            "type": "Float(-300, 300, 0.1, 1)",
+            "defaultValue": "240"
         },
         {
             "name": "Time",
-            "type": "Float(0.1, 10, 1, 1)",
-            "defaultValue": "0.3"
+            "type": "Float(0.1, 5, 0.1, 1)",
+            "defaultValue": "0.5"
+        },
+        {
+            "name": "Tween Type",
+            "type": "String",
+            "defaultValue": "circOut"
         }
     ]
 }
