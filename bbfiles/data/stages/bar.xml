@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.7" name="bar" folder="stages/bar/" startCamPosY="120" startCamPosX="680">
+<stage zoom="0.6" name="bar" folder="stages/bar/" startCamPosY="120" startCamPosX="680">
 	<girlfriend y="250"/>
-	<sprite name="back"               x="-559" y="-394"   sprite="back"       scroll="1" />
-	<sprite name="backadd"               x="-559" y="-394"   sprite="backlightadd"       scroll="1" />
+	<sprite name="back"               x="-549" y="-404"   sprite="back"       scroll="0.9" />
+	<sprite name="backadd"               x="-549" y="-404"   sprite="backlightadd"       scroll="0.9" />
 	<sprite name="front"               x="-559" y="93"   sprite="front"       scroll="1" />
 	<sprite name="chairs"               x="-559" y="540"   sprite="chairs"       scroll="1" />
 	<sprite name="upperthing"               x="-559" y="-394"   sprite="upperthing"       scroll="1" />
@@ -12,8 +12,8 @@
 	<sprite name="lightslightadd2"               x="1174" y="-143"   sprite="lightslightadd"       scroll="1" />
 	<sprite name="lamp2"               x="1470" y="-394"   sprite="lamp"       scroll="1" />
 	<sprite name="lightadd2"               x="1330" y="-298"   sprite="lightadd"       scroll="1" />
-	<dad scale="1.07" x="180" y="100" camxoffset="0" camyoffset="-50" />
-	<boyfriend scale="1.07" x="700" y="100" camxoffset="0" camyoffset="-50"/>
-	<sprite name="frontmultiply"      x="-559" y="-394"   sprite="frontmultiply"       scroll="1" />
+	<dad scale="1.07" x="130" y="100" camxoffset="100" camyoffset="-100" />
+	<boyfriend scale="1.07" x="780" y="120" camxoffset="-130" camyoffset="-100"/>
 	<sprite name="frontlightadd"      x="-559" y="-394"   sprite="frontlightadd"       scroll="1" />
+	<sprite name="frontmultiply"      x="-559" y="-394"   sprite="frontmultiply"       scroll="1" />
 </stage>
