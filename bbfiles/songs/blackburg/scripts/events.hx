@@ -46,7 +46,7 @@ function stepHit()
 
             camGame.addShader(lightShader);
 
-            FlxTween.num(0, 40, (Conductor.stepCrochet * 8 / 1000), {ease: FlxEase.circIn}, function(v:Float) {
+            FlxTween.num(0, -20, (Conductor.stepCrochet * 8 / 1000), {ease: FlxEase.circIn}, function(v:Float) {
                 lightShader.hue = v;
             });
             FlxTween.num(lightShader.brightness, -20, (Conductor.stepCrochet * 8 / 1000), {ease: FlxEase.circIn}, function(v:Float) {
@@ -63,7 +63,7 @@ function stepHit()
             boyfriend.cameraOffset.y -= 50;
 
 
-            FlxTween.num(40, 0, (Conductor.stepCrochet * 8 / 1000), {ease: FlxEase.circOut}, function(v:Float) {
+            FlxTween.num(-20, 0, (Conductor.stepCrochet * 8 / 1000), {ease: FlxEase.circOut}, function(v:Float) {
                 lightShader.hue = v;
             });
             FlxTween.num(lightShader.brightness, 0, (Conductor.stepCrochet * 8 / 1000), {ease: FlxEase.circOut}, function(v:Float) {

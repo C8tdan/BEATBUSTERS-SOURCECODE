@@ -1,3 +1,5 @@
+import openfl.display.BlendMode;
+
 var lightHandlerShader:CustomShader;
 var blurShader:CustomShader;
 
@@ -29,6 +31,7 @@ function stepHit()
                 blurShader.focusPower = v;
             });
         case 128:
+            setBackroomsBlends();
             camGame.removeShader(blurShader);
             lightHandlerShader.brightness = -8;
             lightHandlerShader.contrast = 8;
@@ -36,4 +39,17 @@ function stepHit()
             dad.visible = true;
             camHUD.visible = true;
     }
+}
+
+function setBackroomsBlends()
+{
+    var multiply = stage.getSprite("multiply");
+    var add = stage.getSprite("add");
+    var multiply2 = stage.getSprite("multiply2");
+    var multiply3 = stage.getSprite("multiply3");
+
+    multiply.blend = BlendMode.MULTIPLY;
+    add.blend = BlendMode.ADD;
+    multiply2.blend = BlendMode.MULTIPLY;
+    multiply3.blend = BlendMode.MULTIPLY;
 }
